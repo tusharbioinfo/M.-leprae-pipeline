@@ -1,12 +1,13 @@
-M. leprae WGS Analysis Pipeline
+****M. leprae WGS Analysis Pipeline****
 
-A Bash-based pipeline for whole-genome sequencing (WGS) analysis of Mycobacterium leprae, covering quality control, read processing, alignment, variant calling, filtering, and annotation.
+A Bash-script pipeline for whole-genome sequencing (WGS) analysis of Mycobacterium leprae, covering quality control, read processing, alignment, variant calling, filtering, and annotation.
 
-Workflow
-SRA → FASTQ → QC → Trimming → BWA Alignment
+**Workflow**
+SRA → FASTQ FILE → QC → Trimming → BWA Alignment
 → BAM Processing → Variant Calling → Filtering
 → VCF Normalization → SnpEff Annotation
-Tools
+
+**Tools**
 SRA Toolkit
 FastQC
 fastp
@@ -18,13 +19,14 @@ SnpEff
 SnpSift
 Qualimap
 MultiQC
-pigz
-Repository Structure
+
+**Repository Structure**
 M.-leprae-pipeline/
 ├── README.md
 ├── pipeline.sh
 └── wgs_env.yml
-Installation
+
+**Installation**
 git clone https://github.com/tusharbioinfo/M.-leprae-pipeline.git
 cd M.-leprae-pipeline
 
@@ -32,8 +34,8 @@ conda env create -f wgs_env.yml
 conda activate wgs
 
 chmod +x pipeline.sh
-Input
 
+Input-
 The pipeline requires a CSV file containing SRA accession IDs and sequencing type.
 
 sra_id,type
@@ -56,12 +58,12 @@ Variant calling and filtering
 VCF normalization
 Variant annotation
 Quality assessment and reporting
-Reference Genome
 
+Reference Genome-
 Mycobacterium leprae reference genome:
-
 GCF_000195855.1
-Applications
+
+Applications-
 Genomic diversity analysis
 SNP identification
 Variant annotation
