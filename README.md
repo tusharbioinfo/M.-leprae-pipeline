@@ -61,28 +61,28 @@ Run
 Analysis-
 The pipeline performs:
 
-SRA data download and FASTQ conversion
-Read quality control
-Adapter and quality trimming
-Reference genome alignment
-BAM processing and sorting
-Duplicate removal
-Variant calling and filtering
-VCF normalization
-Variant annotation
-Quality assessment and reporting
+SRA data download and FASTQ conversion,
+Read quality control,
+Adapter and quality trimming,
+Reference genome alignment,
+BAM processing and sorting,
+Duplicate removal,
+Variant calling and filtering,
+VCF normalization,
+Variant annotation,
+Quality assessment and reporting,
 
 Reference Genome-
 Mycobacterium leprae reference genome:
 GCF_000195855.1
 
 Applications-
-Genomic diversity analysis
-SNP identification
-Variant annotation
-Comparative genomics
-Antimicrobial-resistance-associated variant analysis
-Downstream phylogenetic analysis
-Author
-
+Genomic diversity analysis,
+SNP identification,
+Variant annotation,
+Comparative genomics,
+Antimicrobial-resistance-associated variant analysis,
+Downstream phylogenetic analysis,
+Author,
+,
 Tushar Sain
