@@ -83,6 +83,8 @@ Variant annotation,
 Comparative genomics,
 Antimicrobial-resistance-associated variant analysis,
 Downstream phylogenetic analysis,
-Author,
-,
+
+**Author**
+
 Tushar Sain
+Bioinformatics 
