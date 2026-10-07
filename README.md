@@ -10,17 +10,17 @@ SRA → FASTQ FILE → QC → Trimming → BWA Alignment
 
 **Tools**
 
-SRA Toolkit
-FastQC
-fastp
-BWA
-SAMtools
-Picard
-BCFtools
-SnpEff
-SnpSift
-Qualimap
-MultiQC
+SRA Toolkit,
+FastQC,
+fastp,
+BWA,
+SAMtools,
+Picard,
+BCFtools,
+SnpEff,
+SnpSift,
+Qualimap,
+MultiQC,
 
 **Repository Structure**
 
@@ -35,9 +35,11 @@ M.-leprae-pipeline/
 **Installation**
 
 git clone https://github.com/tusharbioinfo/M.-leprae-pipeline.git
+
 cd M.-leprae-pipeline
 
 conda env create -f wgs_env.yml
+
 conda activate wgs
 
 chmod +x pipeline.sh
@@ -47,14 +49,16 @@ Input-
 The pipeline requires a CSV file containing SRA accession IDs and sequencing type.
 
 sra_id,type
+
 SRRXXXXXXX,PAIRED
 SRRXXXXXXX,PAIRED
 SRRXXXXXXX,SINGLE
 
 Run
-./pipeline.sh samples.csv
-Analysis
 
+./pipeline.sh samples.csv
+
+Analysis-
 The pipeline performs:
 
 SRA data download and FASTQ conversion
