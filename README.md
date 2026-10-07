@@ -1,4 +1,4 @@
-****M. leprae WGS Analysis Pipeline****
+# M. leprae WGS Analysis Pipeline
 
 A Bash-script pipeline for whole-genome sequencing (WGS) analysis of Mycobacterium leprae, covering quality control, read processing, alignment, variant calling, filtering, and annotation.
 
