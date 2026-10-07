@@ -3,11 +3,13 @@
 A Bash-script pipeline for whole-genome sequencing (WGS) analysis of Mycobacterium leprae, covering quality control, read processing, alignment, variant calling, filtering, and annotation.
 
 **Workflow**
+
 SRA → FASTQ FILE → QC → Trimming → BWA Alignment
 → BAM Processing → Variant Calling → Filtering
 → VCF Normalization → SnpEff Annotation
 
 **Tools**
+
 SRA Toolkit
 FastQC
 fastp
@@ -21,12 +23,17 @@ Qualimap
 MultiQC
 
 **Repository Structure**
+
 M.-leprae-pipeline/
+
 ├── README.md
+
 ├── pipeline.sh
+
 └── wgs_env.yml
 
 **Installation**
+
 git clone https://github.com/tusharbioinfo/M.-leprae-pipeline.git
 cd M.-leprae-pipeline
 
@@ -36,12 +43,14 @@ conda activate wgs
 chmod +x pipeline.sh
 
 Input-
+
 The pipeline requires a CSV file containing SRA accession IDs and sequencing type.
 
 sra_id,type
 SRRXXXXXXX,PAIRED
 SRRXXXXXXX,PAIRED
 SRRXXXXXXX,SINGLE
+
 Run
 ./pipeline.sh samples.csv
 Analysis
